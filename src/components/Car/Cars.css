@@ -1,0 +1,133 @@
+.cars{
+    width: 1440px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.title_cars{
+    font-family: 'monument extended';
+    font-size: 45px;
+
+}
+
+.flotte{
+    display: flex; 
+    justify-content: space-evenly;
+}
+
+.flotte_car{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+
+
+.mourad{
+    background-image: url(/src/assets/taxis/mourad.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    width: 450px;
+    height: 200px;
+}
+
+.michele{
+    background-image: url(/src/assets/taxis/michele.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    width: 450px;
+    height: 200px;
+}
+
+.charly{
+    background-image: url(/src/assets/taxis/charly.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    width: 450px;
+    height: 200px;
+}
+
+.title_name{
+    font-family: 'monument extended';
+}
+
+.ads_number{
+    font-size: 12px;
+}
+
+
+@media(max-width:1024px){
+    .cars{
+        max-width: 1024px;
+    }
+
+    .mourad{
+        width: 300px;
+        height: 125px;
+    }
+
+    .michele{
+        width: 300px;
+        height: 125px;
+    }
+
+    .charly{
+        width: 300px;
+        height: 125px;
+    }
+}
+
+@media(max-width:768px){
+    .cars{
+        max-width: 768px;
+    }
+
+    .flotte{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* .mourad{
+        width: 300px;
+        height: 125px;
+    }
+
+    .michele{
+        width: 300px;
+        height: 125px;
+    }
+
+    .charly{
+        width: 300px;
+        height: 125px;
+    } */
+}
+
+
+@media(max-width:425px){
+    .cars{
+        max-width: 425px;
+    }
+    .title_cars{
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 375px){
+    .cars{
+        max-width: 375px;
+    }
+}
+
+@media(max-width:320px){
+    .cars{
+        max-width: 320px;
+    }
+}

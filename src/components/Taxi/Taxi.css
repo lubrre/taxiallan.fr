@@ -1,0 +1,64 @@
+.taxi{
+    background-color: white;
+}
+
+.intro{
+    background-color: white;
+    display: flex;
+    height: 550px;
+    /* position: relative; */
+}
+.intro_title_btn{
+    position: absolute;
+    left: 180px;
+    top: 220px;
+    z-index: 2;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* border: 1px solid black; */
+}
+
+.intro_title{
+    font-family: 'strech';
+    font-size: 80px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.more_button{
+    background-color: black;
+    border-radius: 10px;
+    color: #F8CC49;
+    font-family: 'monument extended';
+    font-size: 15px;
+    border: none;
+    width: 200px;
+    height: 40px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.intro_img{
+    /* background-color: black; */
+    /* -webkit-mask-image: url(/src/assets/intro/yellow_shape.png);
+    mask-image: url(/src/assets/intro/yellow_shape.png); */
+    background-image: url(/src/assets/intro/yellow_shape.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 700px;
+    height: 500px;
+    /* border: 1px solid black; */
+    margin-left: 50px;
+    
+    position: absolute;
+    right: 150px;
+    top: 150px;
+}
+
+.icon_intro{
+    font-size: 60px;
+    color: black;
+}

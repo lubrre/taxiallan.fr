@@ -1,0 +1,154 @@
+
+.form{
+    display: flex;
+    justify-content: center;
+    border-radius: 0;
+    height: 800px;
+}
+
+.contact_form{
+    margin-top: 100px;
+    height: 600px;
+    /* border: 2px solid black; */
+}
+.contact_title_1{
+    font-family: 'monument extended';
+    font-size: 40px;
+}
+
+.contact_title_2{
+    font-family: 'strech';
+    font-size: 80px;
+    margin-top: 25px;
+}
+
+.form_control{
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px black solid;
+    width: 1000px;
+    height: 50px;
+    margin-top: 15px;
+}
+
+.form_control::placeholder{
+    color: black;
+    font-family: 'monument extended';
+    font-size: 20px;
+}
+
+.form_control_message{
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px black solid;
+    width: 1000px;
+    height: 50px;
+    margin-top: 50px;
+}
+
+.form_control_message::placeholder{
+    color: black;
+    font-family: 'monument extended';
+    font-size: 20px;
+}
+
+.submit_button{
+    margin-top: 75px;
+    background-color: black;
+    border-radius: 10px;
+    color: #F8CC49;
+    font-family: 'monument extended';
+    font-size: 15px;
+    border: none;
+    width: 200px;
+    height: 40px;
+}
+
+@media(max-width:1024px){
+    .contact_title_2{
+        font-size: 75px;
+    }
+
+    .form_control{
+        width: 900px;
+    }
+
+    .form_control_message{
+        width: 900px;
+    }
+}
+
+@media(max-width:768px){
+    .contact_title_2{
+        font-size: 55px;
+        margin-top: 10px;
+    }
+    .form_control{
+        width: 700px;
+    }
+    
+    .form_control_message{
+        width: 700px;
+    }
+}
+
+
+@media(max-width:425px){
+    .contact_title_1{
+        font-size: 25px;
+    }
+    .contact_title_2{
+        font-size: 30px;
+    }
+
+    .form_control{
+        width: 400px;
+    }
+
+    .form_control_message{
+        width: 400px;
+    }
+
+    .form_control::placeholder{
+        font-size: 18px;
+    }
+
+    .form_control_message::placeholder{
+        font-size: 18px;
+    }
+}
+
+@media(max-width: 375px){
+    .form_control{
+        width: 350px;
+    }
+    
+    .form_control_message{
+        width: 350px;
+    }
+
+    .contact_title_1{
+        font-size: 20px;
+    }
+    .contact_title_2{
+        font-size: 24px;
+    }
+
+    .form_control::placeholder{
+        font-size: 15px;
+    }
+
+    .form_control_message::placeholder{
+        font-size: 15px;
+    }
+}
+
+@media(max-width:320px){
+    .form_control{
+        width: 300px;
+    }
+    
+    .form_control_message{
+        width: 300px;
+    }
+}

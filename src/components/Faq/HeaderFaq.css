@@ -1,0 +1,37 @@
+header{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 15px;
+    margin-top: 50px;
+}
+
+header h2{
+    font-size: 45px;
+    font-family: 'monument extended';
+    text-transform: uppercase;
+}
+
+
+/* @media(max-width:1024px){
+    
+}
+
+@media(max-width:768px){
+    
+}
+
+
+@media(max-width:425px){
+    
+}
+
+@media(max-width: 375px){
+    
+} */
+
+@media(max-width:320px){
+    header h2{
+        font-size: 40px;
+    }
+}
