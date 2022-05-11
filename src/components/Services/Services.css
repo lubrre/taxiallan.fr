@@ -35,6 +35,10 @@
     font-size: 24px;
 }
 
+.p_service{
+    margin-top: 30px;
+}
+
 .p_services{
     font-family: 'monument extended';
     font-size: 17px;
@@ -87,6 +91,14 @@
         margin-right: 30px;
         margin-left: 30px;
     }
+}
+
+@media(max-width:720px){
+    .h1_services{
+        font-size: 45px;
+    }
+
+    
 }
 
 

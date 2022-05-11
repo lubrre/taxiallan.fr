@@ -1,14 +1,13 @@
-.int{
+.int {
     background-color: white;
     margin: 0 auto;
 
 }
 
-.intro_container{
+.intro_container {
     display: flex;
     justify-content: space-around;
     text-align: center;
-    width: 1440px;
     height: 600px;
     margin: 0 auto;
     /* border: 3px solid red; */
@@ -16,18 +15,19 @@
 
 }
 
-.btn_title_intro{
+.btn_title_intro {
+    /* position: absolute;
+    top: 100px; */
     z-index: 5;
-    width: 1440px;
+    margin: 170px auto;
+    width: auto;
     display: flex;
-    padding-top: 200px;
-    padding-left: 200px;
     flex-direction: column;
     align-items: flex-start;
     /* border: 1px solid black; */
 }
 
-.title_intro{
+.title_intro {
     font-family: 'strech';
     font-size: 80px;
     margin-top: 100px;
@@ -37,7 +37,7 @@
 
 }
 
-.more_button_intro{
+.more_button_intro {
     background-color: black;
     border-radius: 10px;
     color: #F8CC39;
@@ -50,13 +50,13 @@
     margin-top: 20px;
 }
 
-.more_button:hover{
+.more_button:hover {
     color: black;
     background-color: #F8CC39;
     cursor: pointer;
 }
 
-.img_intro{
+.img_intro {
     background-image: url(/src/assets/intro/yellow_shape.png);
     background-size: contain;
     background-position: center;
@@ -65,64 +65,150 @@
     height: 500px;
     /* border: 1px solid black; */
     margin-left: 50px;
-    
+
     position: absolute;
     top: 70px;
-    right: 50px;
+    right: 100px;
 
 }
 
-.icon_intro{
+.icon_intro {
     margin-top: 50px;
     font-size: 60px;
-    color: black;  
+    color: black;
 }
 
-@media(max-width:1024px){
-    .intro_container{
+@media(max-width:1024px) {
+    .intro_container {
         max-width: 1024px;
     }
 
-    .btn_title_intro{
-        padding-left: 100px;
-        padding-top: 150px;
+    .btn_title_intro {
+        margin: 150px auto;
     }
 }
 
+@media(max-width:900px) {
+    .btn_title_intro {
+        margin: 120px auto;
+    }
+
+    .img_intro {
+        right: 80px;
+    }
+}
+
+@media(max-width:850px) {
+    .img_intro {
+        right: 50px;
+    }
+}
+
+@media(max-width:800px) {
+    .img_intro {
+        right: 25px;
+    }
+}
+
+
 @media(max-width:768px) {
-    .intro_container{
+    .intro_container {
         max-width: 768px;
     }
 
-    .btn_title_intro{
-        padding-left: 30px;
+    .title_intro {
+        font-size: 70px;
     }
-    
-    .img_intro{
+
+
+    .img_intro {
         width: 600px;
     }
 }
 
-@media(max-width:425px){
-    .intro_container{
+@media(max-width:700px) {
+    .img_intro {
+        width: 600px;
+        height: 500px;
+    }
+}
+
+@media(max-width:650px) {
+    
+    .btn_title_intro{
+        margin: 120px auto;
+    }
+
+}
+
+@media(max-width:630px) {
+    .title_intro{
+        font-size: 60px;
+    }
+
+    .img_intro{
+        right: 10px;
+        width: 600px;
+    }
+}
+
+@media(max-width:600px) {
+
+
+    .img_intro{
+        right: 50px;
+        width: 500px;
+    }
+}
+
+@media(max-width:550px) {
+
+    .img_intro{
+        right: 25px;
+        width: 500px;
+    }
+}
+
+@media(max-width:500px) {
+    .btn_title_intro{
+        margin: 50px auto;
+        align-items: center;
+    }
+
+    .img_intro{
+        width: 400px;
+    }
+}
+
+@media(max-width:428px) {
+    .img_intro{
+        right: 14px;
+        width: 400px;
+    }
+}
+
+
+
+@media(max-width:425px) {
+    .intro_container {
         max-width: 425px;
         flex-direction: column;
         align-items: center;
         height: 500px;
     }
 
-    .btn_title_intro{
+    .btn_title_intro {
         align-items: center;
         padding-left: 0;
         padding-top: 50px;
         max-width: 425px;
     }
 
-    .title_intro{
+    .title_intro {
         font-size: 45px;
     }
 
-    .img_intro{
+    .img_intro {
         width: 350px;
         height: 300px;
         position: relative;
@@ -132,37 +218,37 @@
     }
 }
 
-@media(max-width: 375px){
-    .intro_container{
+@media(max-width: 375px) {
+    .intro_container {
         max-width: 375px;
     }
 
-    .title_intro{
+    .title_intro {
         font-size: 40px;
     }
 
-    .btn_title_intro{
+    .btn_title_intro {
         max-width: 375px;
     }
 
 
 }
 
-@media(max-width:320px){
-    .intro_container{
+@media(max-width:320px) {
+    .intro_container {
         max-width: 320px;
         height: 400px;
     }
 
-    .btn_title_intro{
+    .btn_title_intro {
         max-width: 320px;
     }
 
-    .title_intro{
+    .title_intro {
         font-size: 33px;
     }
 
-    .img_intro{
+    .img_intro {
         width: 300px;
     }
 }

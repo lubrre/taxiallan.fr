@@ -70,17 +70,39 @@ p{
         align-items: center;
         padding-bottom: 20px;
     }
+    
 
     .footer_detail{
         margin-top: 25px;
+        justify-content: center;
+        width: auto;
+        margin-left: 0;
     }
 
     .footer_info{
         text-align: center;
         margin-top: 30px;
+        margin-right: 0;
     }
 }
 
+@media(max-width:720px){
+    
+}
+
+
+@media(max-width:428px){
+    .footer_detail{
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .footer_info{
+        margin-right: 0;
+    }
+}
 
 @media(max-width:425px){
     .footer_detail{

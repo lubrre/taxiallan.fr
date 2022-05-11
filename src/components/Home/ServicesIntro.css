@@ -72,6 +72,55 @@
     }
 }
 
+@media(max-width:1000px){
+    .services_container{
+        max-width: auto;
+    }
+
+    .service_medical{
+        width: 450px;
+    }
+
+    .service_private{
+        width: 450px;
+    }
+}
+
+@media(max-width:850px){
+
+    .service_medical{
+        width: 400px;
+    }
+
+    .service_private{
+        width: 400px;
+    }
+}
+
+@media(max-width:800px){
+
+    .service_medical{
+        width: 400px;
+        height: 200px;
+    }
+
+    .service_private{
+        width: 400px;
+        height: 200px;
+    }
+}
+
+@media(max-width:799px){
+
+    .service_medical{
+        width: 380px;
+    }
+
+    .service_private{
+        width: 380px;
+    }
+}
+
 @media(max-width:768px){
     .service_title{
         margin-top: 30px;
@@ -84,12 +133,33 @@
 
     .service_medical{
         width: 500px;
-        height: 200px;
+        height: 300px;
     }
 
     .service_private{
         width: 500px;
-        height: 200px;
+        height: 300px;
+    }
+}
+
+@media(max-width:625px){
+
+    .service_title{
+        font-size: 60px;
+    }
+}
+
+@media(max-width:500px){
+    .service_title{
+        font-size: 50px;
+    }
+
+    .service_medical{
+        width: 400px;
+    }
+
+    .service_private{
+        width: 400px;
     }
 }
 
