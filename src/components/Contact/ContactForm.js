@@ -26,7 +26,7 @@ function ContactForm() {
                         <input type='text' className='form_control' placeholder='Votre nom' name='name'/>
                     </div>
                     <div className='contact_placeholder'>
-                        <input type='email' className='form_control' placeholder='Votre numéro de téléphone' name='phone'/>
+                        <input type='number' className='form_control' placeholder='Votre numéro de téléphone' name='number'/>
                     </div>
                     <div className='contact_placeholder'>
                         <textarea className='form_control_message' id='' placeholder='Votre message' name='message'></textarea>

@@ -43,7 +43,12 @@
     width: 600px;
     height: 400px;
     cursor: pointer;
-    /* border: 1px solid black; */
+    border-radius: 20px;
+}
+
+.service_private:hover{
+    background-color: #d8d8d8;
+    transition: .3s ease;
 }
 
 
@@ -55,7 +60,13 @@
     width: 600px;
     height: 400px;
     cursor: pointer;
-    /* border: 1px solid black; */
+    border-radius: 20px;
+
+}
+
+.service_medical:hover{
+    background-color: #d8d8d8;
+    transition: .3s ease;
 }
 
 @media(max-width:1024px){

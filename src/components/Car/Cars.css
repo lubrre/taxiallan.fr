@@ -20,6 +20,14 @@
     flex-direction: column;
     justify-content: center;
     align-content: center;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.flotte_car:hover{
+    background-color: #d8d8d8;
+    transition: .3s ease;
 }
 
 
@@ -29,10 +37,10 @@
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-
     width: 450px;
     height: 200px;
 }
+
 
 .michele{
     background-image: url(/src/assets/taxis/michele.png);
@@ -60,6 +68,26 @@
 
 .ads_number{
     font-size: 12px;
+}
+
+.phone_overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: 'monument extended';
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    color: black;
+    opacity: 0;
+    transition: .3s ease;
+    z-index: 10;
+}
+
+.phone_overlay:hover{
+    opacity: 1;
 }
 
 

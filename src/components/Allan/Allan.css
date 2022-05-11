@@ -65,15 +65,26 @@
     justify-content: space-evenly;
     padding-top: 100px;
     padding-bottom: 100px;
+    
 }
 
 .icon_allan_detail {
     /* border: 1px solid white; */
     display: flex;
     flex-direction: column;
+    align-content: center;
     align-items: center;
     width: 300px;
-    height: 300px;
+    height: 375px;
+    border-radius: 20px;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.icon_allan_detail:hover{
+    transition: .3s ease;
+    background-color: #F8CC49;
 }
 
 .icon_title {
