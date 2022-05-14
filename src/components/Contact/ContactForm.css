@@ -46,6 +46,7 @@
     margin-top: 50px;
 }
 
+
 .form_control_message::placeholder{
     color: black;
     font-family: 'monument extended';
@@ -62,6 +63,10 @@
     border: none;
     width: 200px;
     height: 40px;
+}
+
+.submit_button:hover{
+    cursor: pointer;
 }
 
 @media(max-width:1024px){
