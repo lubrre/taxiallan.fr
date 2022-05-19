@@ -12,6 +12,7 @@ export default function Footer() {
 
                 <div className='footer_info'>
                     <p className='info_address'>ALLAN KARIBA <br></br> Quartier Pierre Plate <br></br> 83860 Nans Les Pins</p>
+                    <p className='info_email'>ADS 637 Marseille</p>
                     <p className='info_email'>kariba.allan@hotmail.fr</p>
                     <p className='info_phone'>06 89 66 27 75</p>
                 </div>

@@ -26,7 +26,7 @@ function Services() {
             </p>
             <p className="p_services">
               Taxi Allan vous propose sa voiture pour vous conduire à votre
-              rendez-vous et et que vous puissiez voyager assis confortablement.
+              rendez-vous et que vous puissiez voyager assis confortablement.
               Que ce soit un rendez-vous médical ponctuel ou que vous soyez
               amené à avoir des rendez-vous médicaux plus régulièrement, c'est
               important de se faire conduire en toute confiance.
@@ -51,7 +51,7 @@ function Services() {
           <div className="p_service">
             <p className="p_services">
               Un voyage de prévu ? Que ce soit professionel ou personnel
-              réserver votre Taxi Allan afin d’arriver à l’heure souhaiter à
+              réserver votre Taxi Allan afin d’arriver à l’heure souhaité à
               l’aéroport, la gare de votre choix ou encore un trajet privé,
               parce que l’important pour un voyage réussi c’est d’arriver à
               l’heure vous pouvez faire confiance à votre chauffeur.

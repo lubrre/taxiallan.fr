@@ -32,6 +32,7 @@
 
 .faq-question:hover{
 	color: #F8CC49;
+	cursor: pointer;
 }
 
 .faqs .faq .faq-question::after {

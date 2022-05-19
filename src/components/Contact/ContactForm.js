@@ -7,7 +7,7 @@ function ContactForm() {
   function sendEmail(e) {
     e.preventDefault();
 
-    emailjs.sendForm('service_diwrjt7', 'template_contact_lubrre', e.target, 'user_e9bqVmWPSURWMq0Sm8MNO')
+    emailjs.sendForm('service_0f4srks', 'template_taxi_allan', e.target, 'NuZHL2X1ZderAeqLm')
         .then((result) => {
             console.log(result.text);
         }, (error) => {

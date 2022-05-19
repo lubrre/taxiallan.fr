@@ -19,7 +19,7 @@ function Allan() {
       </div>
       <p className="allan_p2">
         Anciennement ambulancier de 2017 à 2020 j'ai fais pendant 3 ans
-        l'expérience du transport sanitaires pour ensuite décider de me lancer à
+        l'expérience du transport sanitaire pour ensuite décider de me lancer à
         mon compte en tant que Taxi courant 2021.
       </p>
 

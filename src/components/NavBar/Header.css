@@ -4,10 +4,37 @@
     box-sizing: border-box;
 }
 
+
 .header{
     background-color: black;
     margin-top: 0;
+    display: flex;
+    flex-direction: column;
 }
+
+.telInHeader{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 220px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.icon_tel{
+    color: #F8CC49;
+}
+
+.header_tel{
+    color: white;
+    font-family: 'monument extended';
+}
+
+.header_separator{
+    color: #F8CC49;
+    font-family: 'monument extended';
+}
+
 
 li{
     list-style: none;
