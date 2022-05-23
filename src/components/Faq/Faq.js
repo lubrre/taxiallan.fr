@@ -8,7 +8,10 @@ export default function Faq() {
   const [faqs, setfaqs] = useState([
     {
       question: 'Je ne comprend pas le montant total de ma course. Pouvez-vous m\u2019expliquer ?',
-      answer: 'Les tarifs du taxi sont réglementés. Le montant de votre course est ainsi composé de plusieurs éléments. Tout d\u2019abord, on commence par le tarif de prise en charge (2,10€), on y ajoute le tarif kilométrique qui lui varie, du lundi au samedi et de 7h à 19h on ajoutera 1,98€/km, on ajoutera 2,56€/km si on est en tarif de nuit, c\u2019est à dire de 19h à 7h ou le dimanche et jours fériés. On ajoutera à cela le tarif d\u2019heure d\u2019attente qui est de 31,60€ lorsqu\u2019il aura besoin d\u2019être rajouté.',
+      answer: 'Les tarifs du taxi sont réglementés. Le montant de votre course est ainsi composé de plusieurs éléments:',
+      answer2: '-Le tarif de prise en charge (2,10€)',
+      answer3: '-Le tarif kilométrique  (1.98€/km) du  lundi au samedi de 7h à 19h (2.56€/km) de 19h à 7h ainsi que les dimanche et jours fériés.',
+      answer4: '-L\u2019heure d\u2019attente (31,60€)',
       open: true
     },
     {

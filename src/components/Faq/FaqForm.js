@@ -12,7 +12,10 @@ function FaqForm ({faq, index, toggleFAQ}) {
             {faq.question}
         </div>
         <div className='faq-answer'>
-            {faq.answer}
+            {faq.answer}<br></br><br></br>
+            {faq.answer2}<br></br>
+            {faq.answer3}<br></br>
+            {faq.answer4}
         </div>
     </div>
   )

@@ -16,7 +16,7 @@ function Services() {
         <div>
           <div className="services_medical"></div>
           <h4 className="h4_services">
-            Votre taxi pour vos rendez-vous médical 7j/7
+            Votre taxi pour vos rendez-vous médicaux 7j/7
           </h4>
           <div className="p_service">
             <p className="p_services">
@@ -46,7 +46,7 @@ function Services() {
 
           <h4 className="h4_services">
             Votre taxi pour arriver à l’aéroport ou la gare de votre choix sans
-            aucune encombre
+            aucun stress
           </h4>
           <div className="p_service">
             <p className="p_services">
