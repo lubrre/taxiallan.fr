@@ -13,6 +13,7 @@
 .flotte{
     display: flex; 
     justify-content: space-evenly;
+
 }
 
 .flotte_car{
@@ -54,6 +55,16 @@
 
 .charly{
     background-image: url(/src/assets/taxis/charly.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    width: 450px;
+    height: 200px;
+}
+
+.maeva{
+    background-image: url(/src/assets/taxis/maeva.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -107,6 +118,11 @@
     }
 
     .charly{
+        width: 300px;
+        height: 125px;
+    }
+
+    .maeva{
         width: 300px;
         height: 125px;
     }

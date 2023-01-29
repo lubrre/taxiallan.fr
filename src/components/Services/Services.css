@@ -50,24 +50,24 @@
 /* img */
 
 .services_medical{
-    background-image: url(/src/assets/services/medical.png);
+    background-image: url(/src/assets/services/merco_1.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     /* width: 450px; */
-    height: 400px;
+    height: 225px;
     margin-top: 50px;
     margin-bottom: 80px;
     /* border: 1px solid black; */
 }
 
 .services_private{
-    background-image: url(/src/assets/services/private.png);
+    background-image: url(/src/assets/services/merco_2.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     /* width: 450px; */
-    height: 400px;
+    height: 225px;
     /* border: 1px solid black; */
     margin-top: 50px;
     margin-bottom: 80px;

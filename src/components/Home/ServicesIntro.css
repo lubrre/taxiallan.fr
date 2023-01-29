@@ -36,7 +36,7 @@
 
 
 .service_private{
-    background-image: url(/src/assets/services/private.png);
+    background-image: url(/src/assets/services/merco_2.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -53,7 +53,7 @@
 
 
 .service_medical{
-    background-image: url(/src/assets/services/medical.png);
+    background-image: url(/src/assets/services/merco_1.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;

@@ -11,16 +11,17 @@ function Allan() {
         <div className="container_detail">
           <h3 className="container_title">Qui suis-je ? </h3>
           <p className="allan_p">
-            Allan Kariba, 24 ans, Le métier de Taxi m'a était transmit par mes
-            parents tout deux Taxis à leur compte.
+            Allan, 24 ans, Le métier de Taxi m'a était transmit par mes
+            parents tout deux Taxis également.
           </p>
         </div>
         <div className="allan_img"></div>
       </div>
       <p className="allan_p2">
-        Anciennement ambulancier de 2017 à 2020 j'ai fais pendant 3 ans
+        Ambulancier durant 3 ans j'ai touché du doigt le transport sanitaire pour ensuite en faire ma vocation. 
+        {/* Anciennement ambulancier de 2017 à 2020 j'ai fais pendant 3 ans
         l'expérience du transport sanitaire pour ensuite décider de me lancer à
-        mon compte en tant que Taxi courant 2021.
+        mon compte en tant que Taxi courant 2021. */}
       </p>
 
       <div className="icon_allan">
@@ -29,7 +30,7 @@ function Allan() {
           <h4 className="icon_title">Securité</h4>
           <p className="icon_text">
             Votre chauffeur de taxi vous assure un service de transport
-            sécurisé, sur-mesure et dans les meilleures conditions.
+            sécurisé, sur mesure et dans les meilleures conditions.
           </p>
         </div>
 
@@ -38,7 +39,7 @@ function Allan() {
           <h4 className="icon_title">Qualité</h4>
           <p className="icon_text">
             Votre taxi vous garantit un service haut de gamme et adapté à vos
-            transports.
+            trajets.
           </p>
         </div>
 

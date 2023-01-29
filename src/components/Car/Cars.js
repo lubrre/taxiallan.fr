@@ -7,6 +7,7 @@ function Cars() {
     <div className='cars'>  
         <h2 className='title_cars'>FLOTTE FAMILLIALE</h2>
         <div className='flotte'>
+            <div className='sous-flotte'>
             <div className='flotte_car'>   
                 <div className='mourad'></div>
                 <h3 className='title_name'>Taxi Mourad</h3>
@@ -18,11 +19,20 @@ function Cars() {
                 <h3 className='title_name'>Taxi Michèle</h3>
                 <p className='phone_overlay'>ADS 04 Nans Les Pins</p>
             </div>
+            </div>
 
+            <div className='sous-flotte'>
             <div className='flotte_car'>   
                 <div className='charly'></div>
                 <h3 className='title_name'>Taxi Charly</h3>
                 <p className='phone_overlay'>ADS 605 Marseille</p>
+            </div>
+
+            <div className='flotte_car'>   
+                <div className='maeva'></div>
+                <h3 className='title_name'>Taxi Maeva</h3>
+                <p className='phone_overlay'>ADS 01 Auriol</p>
+            </div>
             </div>
         </div>
     </div>
